@@ -16,8 +16,8 @@
 @String { IEEProcCTA = {IEE Proc.-Control Theory Appl.} }
 @String { IFACWC     = {IFAC World Congress} }
 @String { ijac       = {International Journal of Adaptive Control and Signal Processing} }
-@String { ijc        = {International Journal of Control} }
 @String { IJC        = {International Journal of Control} }
+@String { ijc        = {International Journal of Control} }
 @String { IWC08      = {17th IFAC World Congress, Seoul, South Korea} }
 @String { jws        = {John Wiley and Sons, Inc.} }
 @String { LAA        = {Linear Algebra and its Applications} }
@@ -32,8 +32,8 @@
 @String { SIAMRev    = {SIAM Review} }
 @String { spring     = {Springer Verlag} }
 @String { syscl      = {Systems \& Control Letters} }
-@String { tac        = {IEEE Transactions on Automatic Control} }
 @String { TAC        = {IEEE Trans. on Automatic Control} }
+@String { tac        = {IEEE Transactions on Automatic Control} }
 
 @Book{Astrom1970,
   Title                    = {Introduction to Stochastic Control Theory},
@@ -1789,6 +1789,21 @@
   Timestamp                = {2006.02.16}
 }
 
+@InProceedings{NesicLaila_CDC2001,
+  Title                    = {Input-to-state stabilization for nonlinear sampled-data systems via approximate discrete-time plant models},
+  Author                   = {D. Ne{\v{s}}i{\'c} and D. S. Laila},
+  Booktitle                = {Proceedings of the 40th IEEE Conference on Decision and Control (Cat. No.01CH37228)},
+  Year                     = {2001},
+  Pages                    = {887-892 vol.1},
+  Volume                   = {1},
+
+  Abstract                 = {We provide a framework for the design of {$L_\infty$} stabilizing controllers via approximate discrete-time models for sampled-data nonlinear systems with disturbances. In particular, we present sufficient conditions that guarantee that a discrete-time controller that input-to-state stabilizes an approximate discrete-time model of a nonlinear continuous-time plant with disturbances would also input-to-state stabilize (in an appropriate sense) the exact discrete-time plant model},
+  Doi                      = {10.1109/.2001.980219},
+  Keywords                 = {control system synthesis;discrete time systems;nonlinear control systems;sampled data systems;stability;L∞ stabilizing controllers;approximate discrete-time plant models;discrete-time controller;input-to-state stabilization;nonlinear sampled-data systems;sufficient conditions;Australia Council;Control system synthesis;Design engineering;Differential equations;Ear;Nonlinear control systems;Nonlinear systems;Sampling methods;Sufficient conditions},
+  Owner                    = {esteban},
+  Timestamp                = {2017.05.02}
+}
+
 @Article{NesicTAC04,
   Title                    = {A framework for stabilization of nonlinear sampled-data systems based on their approximate discrete-time models},
   Author                   = {D. Ne{\v{s}}i{\'c} and A.R. Teel},
@@ -2587,6 +2602,22 @@
 
   Address                  = {Seoul, Korea},
   Pages                    = {10124--10129}
+}
+
+@InProceedings{vandeWouw_CDC2010,
+  Title                    = {Stability analysis for nonlinear Networked Control Systems: A discrete-time approach},
+  Author                   = {N. van de Wouw and D. Nešić and W. P. M. H. Heemels},
+  Booktitle                = {49th IEEE Conference on Decision and Control (CDC)},
+  Year                     = {2010},
+  Month                    = {Dec},
+  Pages                    = {7557-7563},
+
+  Abstract                 = {In this paper we develop a framework for the stabilising controller design for nonlinear Networked Control Systems (NCSs) with time-varying sampling intervals, time-varying delays and packet dropouts. As opposed to emulation-based approaches where the effects of sampling-and-hold and delays are ignored in the phase of controller design, we propose an approach in which the controller design is based on approximate discrete-time models constructed for a nominal (non-zero) sampling interval and a nominal delay while taking into account sampling-and-hold effects. Subsequently, sufficient conditions for the global exponential stability of the closed-loop NCS are provided. The results are illustrated by means of an example.},
+  Doi                      = {10.1109/CDC.2010.5717613},
+  ISSN                     = {0191-2216},
+  Keywords                 = {asymptotic stability;closed loop systems;control system synthesis;delays;discrete time systems;networked control systems;nonlinear control systems;time-varying systems;closed-loop NCS;controller design stabilization;discrete-time approach;emulation-based approach;global exponential stability;nominal delay;nominal sampling interval;nonlinear networked control systems;packet dropouts;sampling-and-hold effects;stability analysis;time-varying delays;time-varying sampling intervals;Computational modeling;Delay;Lyapunov method;Networked control systems;Numerical models;Stability analysis;Uncertainty},
+  Owner                    = {esteban},
+  Timestamp                = {2017.05.02}
 }
 
 @Article{wulfwirthshort09,
