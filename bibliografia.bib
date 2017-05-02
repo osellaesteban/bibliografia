@@ -16,8 +16,8 @@
 @String { IEEProcCTA = {IEE Proc.-Control Theory Appl.} }
 @String { IFACWC     = {IFAC World Congress} }
 @String { ijac       = {International Journal of Adaptive Control and Signal Processing} }
-@String { IJC        = {International Journal of Control} }
 @String { ijc        = {International Journal of Control} }
+@String { IJC        = {International Journal of Control} }
 @String { IWC08      = {17th IFAC World Congress, Seoul, South Korea} }
 @String { jws        = {John Wiley and Sons, Inc.} }
 @String { LAA        = {Linear Algebra and its Applications} }
@@ -32,8 +32,31 @@
 @String { SIAMRev    = {SIAM Review} }
 @String { spring     = {Springer Verlag} }
 @String { syscl      = {Systems \& Control Letters} }
-@String { TAC        = {IEEE Trans. on Automatic Control} }
 @String { tac        = {IEEE Transactions on Automatic Control} }
+@String { TAC        = {IEEE Trans. on Automatic Control} }
+
+@Article{ustunturk_IJC2013,
+  Title                    = {Backstepping designs for the stabilisation of nonlinear sampled-data systems via approximate discrete-time model},
+  Author                   = {Ahmet {\Ü}st{\ü}nt{\ü}rk and Erol Kocao{\ğ}lan},
+  Journal                  = {International Journal of Control},
+  Year                     = {2013},
+  Number                   = {5},
+  Pages                    = {893-911},
+  Volume                   = {86},
+
+  Abstract                 = { The problems of backstepping, adaptive backstepping and reduced order observer based output feedback control of sampled-data nonlinear systems in strict feedback form are considered. Controller design methods based on the Euler approximate model are presented for these problems. The controllers are designed to compensate the effects of the discrepancy between the Euler approximate model and exact discrete time model, parameter estimation error in adaptive control and observer error in output feedback control, which behave as disturbance. It is shown that the obtained controllers semi-globally practically asymptotically stabilise the plant model under standard assumptions. Then numerical examples are given to illustrate the design methods. },
+  Doi                      = {10.1080/00207179.2013.765038},
+  Eprint                   = { 
+ http://dx.doi.org/10.1080/00207179.2013.765038
+ 
+},
+  Owner                    = {esteban},
+  Timestamp                = {2017.05.02},
+  Url                      = { 
+ http://dx.doi.org/10.1080/00207179.2013.765038
+ 
+}
+}
 
 @Book{Astrom1970,
   Title                    = {Introduction to Stochastic Control Theory},
@@ -1226,6 +1249,19 @@
 }
 }
 
+@InProceedings{Katayama_SICE2014,
+  Title                    = {Design of output feedback stabilizing controllers for nonlinear sampled-data strict-feedback systems},
+  Author                   = {H. Katayama},
+  Booktitle                = {2014 Proceedings of the SICE Annual Conference (SICE)},
+  Year                     = {2014},
+  Month                    = {Sept},
+  Pages                    = {1516-1521},
+
+  Abstract                 = {Design of output feedback SPUA stabilizing controllers is considered for nonlinear sampled-data strict-feedback systems. It is also shown that the designed output feedback controllers SP-IS stabilize nonlinear sampled-data strict-feedback system with sampled observation noise. A numerical example is given to illustrate the proposed design of output feedback controllers.},
+  Doi                      = {10.1109/SICE.2014.6935283},
+  Keywords                 = {feedback;nonlinear systems;sampled data systems;stability;nonlinear sampled data strict feedback systems;output feedback SPUA stabilizing controllers;output feedback controllers SP-IS;sampled observation noise;Design methodology;Mathematical model;Noise;Observers;Output feedback;State feedback;Nonlinear sampled-data control;Nonlinear sampled-data strict-feedback system;Observer-based output feedback controller}
+}
+
 @Article{Katebi1999,
   Title                    = {Integrated Control, Guidance and Diagnosis for Reconfigurable Autonomous Underwater Vehicle Control},
   Author                   = {M. R. Katebi and M. J. Grimble},
@@ -1787,6 +1823,34 @@
   File                     = {C\:\\Wei\\PhD\\multi-sensor switching control\\literature\\00387616.pdf:C\:\\Wei\\PhD\\multi-sensor switching control\\literature\\00387616.pdf:PDF},
   Owner                    = {Wei Zhuo},
   Timestamp                = {2006.02.16}
+}
+
+@Article{NesicAngeliTAC2002,
+  Title                    = {Integral Versions of ISS for Sampled-Data Nonlinear Systems via Their Approximate Discrete-Time Models},
+  Author                   = {D. Ne{\v{s}}i{\'c} and D. Angeli},
+  Journal                  = TAC,
+  Year                     = {2002},
+  Number                   = {12},
+  Pages                    = {2033--2037},
+  Volume                   = {47},
+
+  Abstract                 = {Two integral versions of input to state stability are considered: integral input-to-state stability (iISS) and integral input-to-integral-state stability (iIiSS). We present sufficient conditions that guarantee that if a controller achieves semiglobal practical iISS (respectively, iIiSS) of an approximate discrete-time model of a nonlinear sampled-data system, then the same controller achieves semiglobal practical iISS (respectively, iIiSS) of the exact discrete-time model by reducing the sampling period. Recent results on numerical methods for systems with measurable disturbances can be used to generate approximate models that we consider. Results are presented for arbitrary dynamic controllers that can be discontinuous in general.},
+  Owner                    = {esteban},
+  Timestamp                = {2017.05.2}
+}
+
+@Article{NesicLaila_TAC2002,
+  Title                    = {A Note on Input-to-State Stabilization for Nonlinear Sampled-Data Systems},
+  Author                   = {D. Ne{\v{s}}i{\'c} and D. S. Laila},
+  Journal                  = TAC,
+  Year                     = {2002},
+  Number                   = {7},
+  Pages                    = {1153--1158},
+  Volume                   = {47},
+
+  Abstract                 = {Abstract—We provide a framework for the design of stabilizing controllers via approximate discrete-time models for sampled-data non-linear systems with disturbances. In particular, we present sufficient conditions under which a discrete-time controller that input-to-state stabilizes an approximate discrete-time model of a nonlinear plant with disturbances would also input-to-state stabilize (in an appropriate sense) the exact discrete-time plant model.},
+  Owner                    = {esteban},
+  Timestamp                = {2017.05.2}
 }
 
 @InProceedings{NesicLaila_CDC2001,
